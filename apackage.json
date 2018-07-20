@@ -1,0 +1,19 @@
+{
+  "name": "cicd-circleci",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tautorn/cicd-circleci.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Tautorn/cicd-circleci/issues"
+  },
+  "homepage": "https://github.com/Tautorn/cicd-circleci#readme"
+}
