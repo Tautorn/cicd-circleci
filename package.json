@@ -1,5 +1,5 @@
 {
-  "name": "my-app",
+  "name": "cicd-circleci",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -7,6 +7,16 @@
     "react-dom": "^16.4.1",
     "react-scripts": "1.1.4"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tautorn/cicd-circleci.git"
+  },
+  "author": "brunocarneirofs@gmail.com",
+  "bugs": {
+    "url": "https://github.com/Tautorn/cicd-circleci/issues"
+  },
+  "homepage": "https://github.com/Tautorn/cicd-circleci#readme",
+  "license": "ISC",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
