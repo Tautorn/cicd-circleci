@@ -37,6 +37,28 @@ jobs:
 
       - run: yarn test
 
+  # Deploying
+  deploy-development:
+    docker:
+      - image: circleci/node:8.9.4
+    working_directory: ~/cicd-circleci
+
+    steps:
+      - checkout
+
+      - command: # shell
+
+  deploy-prod:
+    docker:
+      - image: circleci/node:8.9.4
+    working_directory: ~/cicd-circleci
+
+    steps:
+      - checkout
+
+      - command: # shell
+
+
 
 workflows:
   version: 2
